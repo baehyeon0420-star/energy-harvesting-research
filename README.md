@@ -37,7 +37,7 @@ energy-harvesting-research/
 - [x] 측정 시스템 구축 (ESP32 / DHT22 / 토양수분센서 / INA219 개별 검증)
 - [x] 태양전지 발전 특성 측정 (예비실험)
 - [x] 슈퍼커패시터 충전 특성 측정
-- [ ] 슈퍼커패시터 방전 특성 측정
+- [x] 슈퍼커패시터 방전 특성 측정
 - [ ] LIR2032 충·방전 특성 측정
 - [ ] 내부저항(ESR) / 자가방전 측정
 - [ ] ESP32 소비전력 측정 (Deep Sleep)
@@ -54,3 +54,4 @@ energy-harvesting-research/
 | `03_soil_moisture_test.ino` | 정전식 토양수분센서 테스트 |
 | `04_ina219_test.ino` | INA219 전압/전류 측정 (태양전지·커패시터 실험 공용) |
 | `05_i2c_scanner_debug.ino` | I2C 장치 인식 문제 진단용 스캐너 |
+| `06_supercap_discharge_test.ino` | 슈퍼커패시터 방전 특성 측정 (시간별 전압/전류 CSV 출력) |
