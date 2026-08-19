@@ -28,9 +28,17 @@
 ```
 energy-harvesting-research/
 ├── README.md
+├── LICENSE
+├── docs/                  # 회로도 등 참고 자료
 ├── experiment-logs/       # 실험 기록 (측정 데이터, 결과 해석)
 └── arduino-code/          # 각 단계별 테스트/측정 코드
 ```
+
+## 회로도
+
+전체 시스템 개념도 + 슈퍼커패시터 충전/방전 측정 회로:
+
+![circuit diagram](./docs/circuit-diagram.png)
 
 ## 진행 상황
 
