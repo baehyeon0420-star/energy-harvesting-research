@@ -46,9 +46,11 @@ energy-harvesting-research/
 - [x] 태양전지 발전 특성 측정 (예비실험)
 - [x] 슈퍼커패시터 충전 특성 측정
 - [x] 슈퍼커패시터 방전 특성 측정
-- [ ] LIR2032 충·방전 특성 측정
+- [x] DHT22 소비전류 측정 (대기 vs 측정 순간)
+- [x] 토양수분센서 소비전류 측정 (대기 vs 측정 순간)
+- [ ] ESP32 자체 Deep Sleep vs Active 소비전력 측정
+- [ ] LIR2032 충·방전 특성 측정 (충전모듈/홀더 배송 대기 중)
 - [ ] 내부저항(ESR) / 자가방전 측정
-- [ ] ESP32 소비전력 측정 (Deep Sleep)
 - [ ] 통합 시스템 실험 및 흐린 날 장기 운용 평가
 
 자세한 측정 데이터와 해석은 [`experiment-logs/`](./experiment-logs) 폴더 참고.
@@ -63,3 +65,5 @@ energy-harvesting-research/
 | `04_ina219_test.ino` | INA219 전압/전류 측정 (태양전지·커패시터 실험 공용) |
 | `05_i2c_scanner_debug.ino` | I2C 장치 인식 문제 진단용 스캐너 |
 | `06_supercap_discharge_test.ino` | 슈퍼커패시터 방전 특성 측정 (시간별 전압/전류 CSV 출력) |
+| `07_dht22_power_measurement.ino` | DHT22 소비전류 측정 (대기 vs 측정 순간) |
+| `08_soil_moisture_power_measurement.ino` | 토양수분센서 소비전류 측정 (대기 vs 측정 순간) |
