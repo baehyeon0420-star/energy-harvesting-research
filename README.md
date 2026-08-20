@@ -48,7 +48,7 @@ energy-harvesting-research/
 - [x] 슈퍼커패시터 방전 특성 측정
 - [x] DHT22 소비전류 측정 (대기 vs 측정 순간)
 - [x] 토양수분센서 소비전류 측정 (대기 vs 측정 순간)
-- [ ] ESP32 자체 Deep Sleep vs Active 소비전력 측정
+- [x] ESP32 Deep Sleep 사이클 타이밍 측정 (전류는 데이터시트 인용)
 - [ ] LIR2032 충·방전 특성 측정 (충전모듈/홀더 배송 대기 중)
 - [ ] 내부저항(ESR) / 자가방전 측정
 - [ ] 통합 시스템 실험 및 흐린 날 장기 운용 평가
@@ -67,3 +67,4 @@ energy-harvesting-research/
 | `06_supercap_discharge_test.ino` | 슈퍼커패시터 방전 특성 측정 (시간별 전압/전류 CSV 출력) |
 | `07_dht22_power_measurement.ino` | DHT22 소비전류 측정 (대기 vs 측정 순간) |
 | `08_soil_moisture_power_measurement.ino` | 토양수분센서 소비전류 측정 (대기 vs 측정 순간) |
+| `09_deepsleep_timing.ino` | ESP32 Deep Sleep 사이클 단계별 타이밍 측정 |
